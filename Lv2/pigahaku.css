@@ -1,3 +1,45 @@
+body{
+  margin: 0 auto;
+  text-align: center;
+}
+.header-main{
+    height: 65px;
+    margin: 0 auto;
+    width: 100%;
+    background-color:blueviolet;
+    position:fixed;
+    top:0;
+    z-index:10;
+}
+.header-logo{
+  margin-top: 5px;
+  margin-left: 20px;
+  width: 90px;
+  height: 20px;
+  text-align: left;
+  padding: 0 0 20px 0;
+  background-color: white;
+  border-radius: 10px;
+  transition: all 0.1s;
+  box-shadow:0 7px white ;
+}
+.headre-logo:hover {
+  background-color: firebrick;
+}
+.header-logo:active{
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+}
+.header-logo p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.main{
+  padding-top:65px;
+}
 .text{
   display: inline-block;
   cursor: pointer;
@@ -6,4 +48,14 @@
   border-radius: 3px;
   color:aliceblue;
   font-size: 10px;
+  transition: all 0.1s;
+  box-shadow:0 7px white ;
+}
+.text:hover {
+  background-color: firebrick;
+}
+.text:active{
+  position: relative;
+  top: 5px;
+  box-shadow: none;
 }
