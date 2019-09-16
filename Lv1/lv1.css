@@ -45,6 +45,7 @@ body{
     position: relative;
     top:150px;
     background-repeat: no-repeat;
+    display: none;
 
 
 }

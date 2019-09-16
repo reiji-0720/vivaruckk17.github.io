@@ -1,4 +1,4 @@
 $(function() {
-    $('.main-logo').fadeIn();
+    $('.main-logo').fadeIn(2000);
     
   });
