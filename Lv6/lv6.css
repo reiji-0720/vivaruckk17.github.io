@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0 auto;
 }
 
@@ -80,9 +80,9 @@ text p{
     background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
     border-radius: 4px; 
     margin-right: 10px;
-  }
-  .twitter {
+}
+.twitter {
     background-color: #55acee;
     border-radius: 4px;
 
-  }
+}
