@@ -1,3 +1,3 @@
 $(function() {
-    $('.main-logo').fadeIn(2000);
-  });
+  $('.main-logo').fadeIn(2000);
+});
