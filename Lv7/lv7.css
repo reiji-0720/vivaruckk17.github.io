@@ -104,8 +104,7 @@ text p{
 .text-contents{
     color: #fff;
     display: none;
-    position: relative;
-    top:30px;
+    position: absolute;
 }
 .text-active {
     display: block;
