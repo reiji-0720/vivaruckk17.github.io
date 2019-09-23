@@ -3,6 +3,7 @@ $(function() {
 
     $('.bottom-logo img').fadeIn(2000);
 
+
     $('.lesson-hover').hover(
         function() {
           $(this).find('.text-contents').addClass('text-active'); 
