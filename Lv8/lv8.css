@@ -1,0 +1,91 @@
+body{
+    margin: 0 auto;
+}
+
+.header {
+  background-color: black;
+  color: #fff;
+  height: 60px;
+  margin: 0%;
+}
+.header-logo {
+   background-image: url(../img/i-img1080x800-15647327727jdqfh6116.gif);
+   background-size: 120px;
+   height: 60px;
+   width: 60px;
+   position: left;
+   display: inline-block;
+   position: relative;
+   top: -16px;
+}
+.header-text{
+   padding-left: 30px; 
+   display:inline-block;
+}
+.sns{
+    padding-top:8px;
+    padding-left: 900px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    
+
+}
+.instagram {
+    background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+    background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+    border-radius: 4px; 
+    margin-right: 10px;
+  }
+  .twitter {
+    background-color: #55acee;
+    border-radius: 4px;
+
+  }
+.main{
+    height: 6500px;
+    background-color: gray;
+    text-align: center;
+    margin: 0%;
+}
+.nicky{
+    position: relative;
+    top:1000px;
+}
+.nicky img{
+    width: 380px;
+    height: 220px;
+}
+.steve{
+    position: relative;
+    top:2000px;
+}
+.steve img{
+    width: 380px;
+    height: 220px;
+}
+.axwell{
+    position: relative;
+    top:3000px;
+}
+.axwell img{
+    width: 380px;
+    height: 220px;
+}
+.yellow{
+    position: relative;
+    top:4000px;
+}
+.yellow img{
+    width: 380px;
+    height: 240px;
+}
+.snake{
+    position: relative;
+    top:5000px;
+}
+.snake img{
+    width: 380px;
+    height: 240px;
+}
