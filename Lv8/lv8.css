@@ -44,7 +44,7 @@ body{
 
   }
 .main{
-    height: 6500px;
+    height: 7500px;
     background-color: gray;
     text-align: center;
     margin: 0%;
@@ -52,40 +52,75 @@ body{
 .nicky{
     position: relative;
     top:1000px;
+    transform: translate3d(0, -10px, 0);
+    transition: 1s;
+    opacity: 0;
+}
+.nicky.animated {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
 }
 .nicky img{
-    width: 380px;
-    height: 220px;
+    width: 700px;
+    height: 400px;
 }
 .steve{
     position: relative;
     top:2000px;
+    transition: 1s;
+    opacity: 0;
+    transform: translate3d(0, -10px, 0);
+}
+.steve.animated {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
 }
 .steve img{
-    width: 380px;
-    height: 220px;
+    width: 700px;
+    height: 400px;
 }
 .axwell{
     position: relative;
     top:3000px;
+    transition: 1s;
+    opacity: 0;
+    transform: translate3d(0, -10px, 0);
+}
+.axwell.animated {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
 }
 .axwell img{
-    width: 380px;
-    height: 220px;
+    width: 700px;
+    height: 400px;
 }
 .yellow{
     position: relative;
     top:4000px;
+    transition: 1s;
+    opacity: 0;
+    transform: translate3d(0, -10px, 0);
+}
+.yellow.animated {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
 }
 .yellow img{
-    width: 380px;
-    height: 240px;
+    width: 700px;
+    height: 420px;
 }
 .snake{
     position: relative;
     top:5000px;
+    transition: 1s;
+    opacity: 0;
+    transform: translate3d(0, -10px, 0);
+}
+.snake.animated {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
 }
 .snake img{
-    width: 380px;
-    height: 240px;
+    width: 700px;
+    height: 420px;
 }
