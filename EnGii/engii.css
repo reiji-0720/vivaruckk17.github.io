@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+header{
+    height:110px;
+}
+#header-contaner{
+    height: 110px;
+    width: 100%;
+    position: fixed;
+
+}
+#header-logo{
+    height: 67px;
+    background-color: white;
+}
+.engii-logo{
+    background-image:url(img/アートボード\ 2.png);
+    background-size:cover;
+    margin: auto;
+    position: relative;
+    height: 56px;
+    width: 161px;
+}
+#header-menu{
+    height:43px;
+}
+.rgba{
+    height: 100%;
+    background: rgba(199, 199, 199, 0.062);
+}
+.menu-text{
+    display: inline-block;
+    position: relative;
+    margin:8px 50px 0 50px;
+}
+main{
+    height: 3590px;
+    background-color: black;
+    background-image: url(img/axwell-ingrosso.jpg);
+}
